@@ -8,7 +8,7 @@ npm install
 ```
 inside the folder. 
 ## Usage
-1. Provide your input in `input.json`
+1. Provide your input in `input.json` (refer to example input inside the file)
 2. run `npm start` inside the k-means folder
 ## Configuration
 - Inside `input.json` you can activate / deactivate the verbose mode (prints out the results of every calculation) by setting verbose to true / false
