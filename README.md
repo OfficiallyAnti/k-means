@@ -12,5 +12,5 @@ inside the folder.
 2. run `npm start` inside the k-means folder
 ## Configuration
 - Inside `input.json` you can activate / deactivate the verbose mode (prints out the results of every calculation) by setting verbose to true / false
-- Inside `input.json` you can set the distance formula / provide a custom one (implement a function in `src/index.js` called that takes two points as input, add it to the if-else block inside the kMeans() function and then reference it inside `input.json` under `distance`)
+- Inside `input.json` you can set the distance formula / provide a custom one (implement a function in `src/index.js` that takes two points as input, add it to the if-else block inside the kMeans() function and then reference it inside `input.json` under `distance`)
 - If no initial partitions are provided, it will randomly partition them
